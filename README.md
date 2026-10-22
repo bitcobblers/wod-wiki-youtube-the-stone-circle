@@ -14,7 +14,12 @@ corpus; notebook chunk ids are unchanged so app-side sync state survives.
 
 | notebook | kind | items |
 |---|---|---:|
-| `the-stone-circle` | collection | 1 |
+| `the-stone-circle` | collection | 0 |
+| `rite-of-the-wolf` | collection | 13 |
+
+> **Note**: the Rite of the Wolf was split out of `the-stone-circle`
+> into its own notebook. Note ids are path-derived, so this split
+> tombstones the old note and resets app-side sync state once.
 
 ## Layout
 
